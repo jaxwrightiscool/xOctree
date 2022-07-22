@@ -63,11 +63,7 @@ Array<T,N>::Array( const TinyVector<int,N>& sizes )
 {
 }
 
-template< typename T, int N >
-const TinyVector<int,N>& Array<T,N>::sizes() const
-{
-    return sizes_;
-}
+//template< typename T, int N >
 
 template< typename T, int N >
 const T& Array<T,N>::at( const TinyVector<int,N>& indices ) const
